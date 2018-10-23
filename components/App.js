@@ -4,6 +4,7 @@ var db = firebase
     databaseURL: "https://awesome-56c60.firebaseio.com"
   })
   .database();
+
 var chartsRef = db.ref("charts");
 
 export default {
@@ -11,6 +12,7 @@ export default {
   data() {
     return {
       currentChart: "localBarData",
+      anotherVar: 10,
       localBarData: [
         ["Jan", 4],
         ["Feb", 2],

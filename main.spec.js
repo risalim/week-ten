@@ -31,4 +31,9 @@ describe("Vue component tests", () => {
     const defaultData = App.data();
     expect(defaultData.currentChart).toBe("localBarData");
   });
+  // someone please change this
+  it("anotherVar should be a multiple of 10.", () => {
+    const defaultData = App.data();
+    expect(defaultData.anotherVar % 10).toBe(0);
+  });
 });
