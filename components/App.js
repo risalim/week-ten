@@ -13,6 +13,7 @@ export default {
       currentChart: "localBarData",
       title: "BT3103 Week 10",
       anotherVar: 200,
+      yetAnotherVar: 50,
       localBarData: [
         ["Jan", 4],
         ["Feb", 2],
