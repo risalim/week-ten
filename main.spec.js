@@ -36,4 +36,9 @@ describe("Vue component tests", () => {
     const defaultData = App.data();
     expect(defaultData.anotherVar % 10).toBe(0);
   });
+
+  it("YetAnotherVar should be a multiple of 5.", () => {
+    const defaultData = App.data();
+    expect(defaultData.yetAnotherVar % 5).toBe(0);
+  });
 });
