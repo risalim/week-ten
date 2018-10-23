@@ -7,7 +7,7 @@ describe("Vue component tests", () => {
   });
   it("The component should have a title property.", () => {
     const defaultData = App.data();
-    // expect(defaultData.title).toBe("BT3103 Week 10");
+    expect(defaultData.title).toBe("BT3103 Week 10");
   });
 
   it("The component should have an updateCurrentChart function.", () => {
@@ -30,5 +30,10 @@ describe("Vue component tests", () => {
   it("Current chart should be localBarData.", () => {
     const defaultData = App.data();
     expect(defaultData.currentChart).toBe("localBarData");
+  });
+
+  it("AnotherVar should be a multiple of  10.", () => {
+    const defaultData = App.data();
+    expect(defaultData.anotherVar % 10).toBe(0);
   });
 });

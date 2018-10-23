@@ -11,6 +11,8 @@ export default {
   data() {
     return {
       currentChart: "localBarData",
+      title: "BT3103 Week 10",
+      anotherVar: 200,
       localBarData: [
         ["Jan", 4],
         ["Feb", 2],
